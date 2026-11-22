@@ -879,12 +879,12 @@
       "blocks": [
         {
           "type": "img",
-          "path": "assets/jd-previous-week.jpg",
+          "path": "assets/jd-current-week.jpg",
           "context": "京东自营：11.09—11.15，上周398元"
         },
         {
           "type": "img",
-          "path": "assets/jd-current-week.jpg",
+          "path": "assets/jd-previous-week.jpg",
           "context": "京东自营：11.16—11.21，本周910元"
         },
         {
