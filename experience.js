@@ -6,7 +6,7 @@ function setupLight(){
   const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
   let paused=reduced.matches,frame=0,point=null;
   try{if(!reduced.matches)paused=localStorage.getItem('mv-light-paused')==='true'}catch{}
-  function paint(){hero.classList.toggle('motion-paused',paused);button.setAttribute('aria-pressed',String(paused));button.setAttribute('aria-label',paused?'播放光影':'暂停光影');button.querySelector('.motion-label').textContent=paused?'播放光影':'暂停光影';button.querySelector('.motion-icon').textContent=paused?'▷':'Ⅱ'}
+  function paint(){hero.classList.toggle('motion-paused',paused);button.setAttribute('aria-pressed',String(paused));button.setAttribute('aria-label',paused?'播放全页光影':'暂停全页光影');button.querySelector('.motion-label').textContent=paused?'播放全页光影':'暂停全页光影';button.querySelector('.motion-icon').textContent=paused?'▷':'Ⅱ';window.dispatchEvent(new CustomEvent('mv-motion-change',{detail:{paused}}))}
   new IntersectionObserver(entries=>hero.classList.toggle('motion-offscreen',!entries[0].isIntersecting),{threshold:0}).observe(hero);
   paint();button.onclick=()=>{paused=!paused;paint();try{localStorage.setItem('mv-light-paused',String(paused))}catch{}};
   hero.addEventListener('pointermove',e=>{if(paused||reduced.matches||e.pointerType==='touch')return;const box=hero.getBoundingClientRect();point={x:(e.clientX-box.left)/box.width*100,y:(e.clientY-box.top)/box.height*100};if(!frame)frame=requestAnimationFrame(()=>{art.style.setProperty('--light-x',Math.max(0,Math.min(100,(point.x-40)*1.7))+'%');art.style.setProperty('--light-y',point.y+'%');frame=0})},{passive:true});
