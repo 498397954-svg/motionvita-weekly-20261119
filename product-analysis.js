@@ -17,7 +17,7 @@
     load();
   }
   async function load(){
-    try{const res=await fetch('product-structure.json?v=7');if(!res.ok)throw new Error('Product data unavailable');data=await res.json();mount();}
+    try{const res=await fetch('product-structure.json?v=8');if(!res.ok)throw new Error('Product data unavailable');data=await res.json();mount();}
     catch(error){root.innerHTML='<div class="pd-loading" role="status">产品结构暂未加载成功。<button type="button" class="pd-retry">重新加载</button></div>';root.querySelector('button').onclick=load;console.error(error);}
   }
   function mount(){
