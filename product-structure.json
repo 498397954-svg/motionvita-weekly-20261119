@@ -1,0 +1,1546 @@
+{
+  "meta": {
+    "sourceUrl": "https://www.kdocs.cn/l/cijIVYUMYsu7",
+    "sheet": "11月产品结构",
+    "checkedAt": "2026-11-23",
+    "basis": "累计采用原表J列合计；分周采用E、F、G列。",
+    "note": "产品表按自然周填报，区别于销售周报11.13—19；部分渠道填报进度不同。快手／得物／视频号原表合报，暂不分摊；线下采购与分公司未拆品。",
+    "totalPolicy": "source-j",
+    "knownDifferences": [
+      {
+        "cell": "J30",
+        "sourceTotal": 99,
+        "weekSum": 0
+      },
+      {
+        "cell": "J31",
+        "sourceTotal": 2208,
+        "weekSum": 297
+      },
+      {
+        "cell": "J44",
+        "sourceTotal": 207,
+        "weekSum": 159
+      }
+    ]
+  },
+  "periods": [
+    {
+      "id": "total",
+      "label": "11月累计",
+      "range": "原表已填累计"
+    },
+    {
+      "id": "w3",
+      "label": "11.15—21",
+      "range": "11月15—21日",
+      "index": 2
+    },
+    {
+      "id": "w2",
+      "label": "11.8—14",
+      "range": "11月8—14日",
+      "index": 1
+    },
+    {
+      "id": "w1",
+      "label": "11.1—7",
+      "range": "11月1—7日",
+      "index": 0
+    }
+  ],
+  "products": [
+    {
+      "id": "segment-gel",
+      "name": "分段式电解质能量胶",
+      "image": "assets/product-segment-gel.png",
+      "color": "#c98caa"
+    },
+    {
+      "id": "isotonic-gel",
+      "name": "等渗水合能量胶",
+      "image": "assets/product-isotonic-gel.png",
+      "color": "#428da8"
+    },
+    {
+      "id": "electrolyte",
+      "name": "多维电解质粉",
+      "image": "assets/product-electrolyte.png",
+      "color": "#a28fbf"
+    },
+    {
+      "id": "red-bottle",
+      "name": "动力小红瓶",
+      "image": "assets/product-red-bottle.png",
+      "color": "#cc7c8e"
+    },
+    {
+      "id": "gold",
+      "name": "金装速耐饮",
+      "image": "assets/product-gold.png",
+      "color": "#c89a52"
+    },
+    {
+      "id": "protein",
+      "name": "欧福蛋白饮",
+      "image": "assets/product-protein.png",
+      "color": "#6aab9e"
+    },
+    {
+      "id": "beet",
+      "name": "天山雪莲甜菜根液",
+      "image": "assets/product-beet.png",
+      "color": "#936c9b"
+    },
+    {
+      "id": "ultra",
+      "name": "清酸Ultra",
+      "image": "assets/product-ultra.png",
+      "color": "#647bb9"
+    },
+    {
+      "id": "strength",
+      "name": "速度力量粉",
+      "image": "assets/product-strength.png",
+      "color": "#76b7c7"
+    },
+    {
+      "id": "endurance",
+      "name": "耐力燃脂粉",
+      "image": "assets/product-endurance.png",
+      "color": "#b3b57e"
+    }
+  ],
+  "channels": [
+    {
+      "id": "douyin",
+      "name": "抖音"
+    },
+    {
+      "id": "tmall",
+      "name": "天猫"
+    },
+    {
+      "id": "pdd",
+      "name": "拼多多"
+    },
+    {
+      "id": "jd-self",
+      "name": "京东自营"
+    },
+    {
+      "id": "jd-pop",
+      "name": "京东POP"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书"
+    },
+    {
+      "id": "combined",
+      "name": "快手／得物／视频号"
+    }
+  ],
+  "rows": [
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 4,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 5,
+      "weeks": [
+        5287.28,
+        1189.52,
+        3366.56
+      ],
+      "total": 9843.36
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 6,
+      "weeks": [
+        0.0,
+        0.0,
+        199.0
+      ],
+      "total": 199.0
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 7,
+      "weeks": [
+        2361.28,
+        2487.66,
+        1763.03
+      ],
+      "total": 6611.97
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 8,
+      "weeks": [
+        0.0,
+        1588.9,
+        893.4
+      ],
+      "total": 2482.3
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 9,
+      "weeks": [
+        396.0,
+        0.0,
+        585.75
+      ],
+      "total": 981.75
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 10,
+      "weeks": [
+        3866.5,
+        704.35,
+        670.0
+      ],
+      "total": 5240.85
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 11,
+      "weeks": [
+        3086.5,
+        1829.13,
+        798.0
+      ],
+      "total": 5713.63
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 12,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动力之巅旗舰店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 13,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 15,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 16,
+      "weeks": [
+        76.73,
+        67.0,
+        0.0
+      ],
+      "total": 143.73
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 17,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 18,
+      "weeks": [
+        259.75,
+        133.54,
+        169.62
+      ],
+      "total": 562.91
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 19,
+      "weeks": [
+        0.0,
+        19.9,
+        19.9
+      ],
+      "total": 39.8
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 20,
+      "weeks": [
+        507.98,
+        624.13,
+        343.82
+      ],
+      "total": 1475.93
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 21,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 22,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 23,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "tmall",
+      "channelName": "天猫",
+      "store": "动健未来食品保健专营店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 24,
+      "weeks": [
+        0.0,
+        169.0,
+        0.0
+      ],
+      "total": 169.0
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 26,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 27,
+      "weeks": [
+        99.0,
+        0.0,
+        0.0
+      ],
+      "total": 99.0
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 28,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 29,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 30,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 99
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 31,
+      "weeks": [
+        198.0,
+        99.0,
+        0.0
+      ],
+      "total": 2208
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 32,
+      "weeks": [
+        199.0,
+        2010.0,
+        0.0
+      ],
+      "total": 2209.0
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 33,
+      "weeks": [
+        0.0,
+        2010.0,
+        0.0
+      ],
+      "total": 2010.0
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 34,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "xiaohongshu",
+      "channelName": "小红书",
+      "store": "动力之巅的店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 35,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 37,
+      "weeks": [
+        89.0,
+        0.0,
+        0.0
+      ],
+      "total": 89.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 38,
+      "weeks": [
+        237.54,
+        1082.27,
+        3705.88
+      ],
+      "total": 5025.69
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 39,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 40,
+      "weeks": [
+        886.56,
+        336.9,
+        386.3
+      ],
+      "total": 1609.76
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 41,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 42,
+      "weeks": [
+        40.0,
+        40.0,
+        20.0
+      ],
+      "total": 100.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 43,
+      "weeks": [
+        29.0,
+        20.0,
+        20.0
+      ],
+      "total": 69.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 44,
+      "weeks": [
+        20.0,
+        20.0,
+        119.0
+      ],
+      "total": 207
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 45,
+      "weeks": [
+        97.79,
+        68.0,
+        20.0
+      ],
+      "total": 185.79
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅旗舰店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 46,
+      "weeks": [
+        218.5,
+        156.21,
+        29.0
+      ],
+      "total": 403.71
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 48,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 49,
+      "weeks": [
+        1404.94,
+        2075.82,
+        1692.27
+      ],
+      "total": 5173.03
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 50,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 51,
+      "weeks": [
+        389.03,
+        681.44,
+        327.5
+      ],
+      "total": 1397.97
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 52,
+      "weeks": [
+        0.0,
+        0.0,
+        39.31
+      ],
+      "total": 39.31
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 53,
+      "weeks": [
+        1619.98,
+        1509.8,
+        1700.92
+      ],
+      "total": 4830.7
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 54,
+      "weeks": [
+        1748.42,
+        1590.0,
+        995.0
+      ],
+      "total": 4333.42
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 55,
+      "weeks": [
+        545.54,
+        310.97,
+        395.0
+      ],
+      "total": 1251.51
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 56,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动健未来食品保健专营店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 57,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 59,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 60,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 61,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 62,
+      "weeks": [
+        39.0,
+        166.78,
+        64.674
+      ],
+      "total": 270.454
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 63,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 64,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 65,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 66,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 67,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "pdd",
+      "channelName": "拼多多",
+      "store": "动力之巅专卖店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 68,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 70,
+      "weeks": [
+        308.3,
+        144.2,
+        665.935
+      ],
+      "total": 1118.435
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 71,
+      "weeks": [
+        15555.92,
+        10494.4,
+        9704.3
+      ],
+      "total": 35754.62
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 72,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 73,
+      "weeks": [
+        1978.81,
+        1414.6,
+        1331.88
+      ],
+      "total": 4725.29
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 74,
+      "weeks": [
+        21.0,
+        14.0,
+        14.0
+      ],
+      "total": 49.0
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 75,
+      "weeks": [
+        20.0,
+        10.0,
+        20.0
+      ],
+      "total": 50.0
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 76,
+      "weeks": [
+        992.14,
+        982.14,
+        992.14
+      ],
+      "total": 2966.42
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 77,
+      "weeks": [
+        427.85,
+        412.85,
+        491.85
+      ],
+      "total": 1332.55
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 78,
+      "weeks": [
+        681.1,
+        563.1,
+        567.575
+      ],
+      "total": 1811.775
+    },
+    {
+      "channel": "douyin",
+      "channelName": "抖音",
+      "store": "动力之巅旗舰店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 79,
+      "weeks": [
+        681.1,
+        563.1,
+        0.0
+      ],
+      "total": 1244.2
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 81,
+      "weeks": [
+        0.0,
+        0.0,
+        8.6
+      ],
+      "total": 8.6
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 82,
+      "weeks": [
+        30.0,
+        20.0,
+        42.15
+      ],
+      "total": 92.15
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 83,
+      "weeks": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 84,
+      "weeks": [
+        724.46,
+        936.22,
+        442.02
+      ],
+      "total": 2102.7
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 85,
+      "weeks": [
+        0.0,
+        0.0,
+        9.67
+      ],
+      "total": 9.67
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 86,
+      "weeks": [
+        0.0,
+        0.0,
+        8.51
+      ],
+      "total": 8.51
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 87,
+      "weeks": [
+        0.0,
+        960.87,
+        20.05
+      ],
+      "total": 980.92
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 88,
+      "weeks": [
+        0.0,
+        333.33,
+        165.46
+      ],
+      "total": 498.79
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 89,
+      "weeks": [
+        0.0,
+        0.0,
+        47.78
+      ],
+      "total": 47.78
+    },
+    {
+      "channel": "jd-pop",
+      "channelName": "京东POP",
+      "store": "动力之巅旗舰店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 90,
+      "weeks": [
+        296.04,
+        1604.86,
+        388.18
+      ],
+      "total": 2289.08
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 92,
+      "weeks": [
+        null,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 93,
+      "weeks": [
+        null,
+        6.0,
+        null
+      ],
+      "total": 6.0
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 94,
+      "weeks": [
+        null,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 95,
+      "weeks": [
+        null,
+        0.0,
+        398.0
+      ],
+      "total": 398.0
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 96,
+      "weeks": [
+        null,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 97,
+      "weeks": [
+        null,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 98,
+      "weeks": [
+        null,
+        199.0,
+        0.0
+      ],
+      "total": 199.0
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 99,
+      "weeks": [
+        null,
+        0.0,
+        237.0
+      ],
+      "total": 237.0
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 100,
+      "weeks": [
+        null,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "jd-self",
+      "channelName": "京东自营",
+      "store": "动力之巅运动营养京东自营旗舰店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 101,
+      "weeks": [
+        null,
+        0.0,
+        0.0
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "segment-gel",
+      "sourceProduct": "分段式电解质能量胶",
+      "row": 103,
+      "weeks": [
+        null,
+        30.0,
+        null
+      ],
+      "total": 30.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "isotonic-gel",
+      "sourceProduct": "等渗水合能量胶",
+      "row": 104,
+      "weeks": [
+        21.0,
+        21.0,
+        null
+      ],
+      "total": 42.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "electrolyte",
+      "sourceProduct": "多维电解质粉",
+      "row": 105,
+      "weeks": [
+        null,
+        null,
+        null
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "red-bottle",
+      "sourceProduct": "动力小红瓶",
+      "row": 106,
+      "weeks": [
+        967.0,
+        1394.0,
+        null
+      ],
+      "total": 2361.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "gold",
+      "sourceProduct": "金装速耐饮",
+      "row": 107,
+      "weeks": [
+        null,
+        null,
+        null
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "protein",
+      "sourceProduct": "欧福蛋白饮",
+      "row": 108,
+      "weeks": [
+        null,
+        null,
+        null
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "beet",
+      "sourceProduct": "天山雪莲甜菜根液",
+      "row": 109,
+      "weeks": [
+        null,
+        null,
+        null
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "ultra",
+      "sourceProduct": "清酸Ultra耐力运动营养片",
+      "row": 110,
+      "weeks": [
+        null,
+        null,
+        null
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "strength",
+      "sourceProduct": "速度力量粉",
+      "row": 111,
+      "weeks": [
+        null,
+        null,
+        null
+      ],
+      "total": 0.0
+    },
+    {
+      "channel": "combined",
+      "channelName": "快手／得物／视频号",
+      "store": "动力之巅官方旗舰店",
+      "product": "endurance",
+      "sourceProduct": "耐力燃脂粉",
+      "row": 112,
+      "weeks": [
+        null,
+        null,
+        null
+      ],
+      "total": 0.0
+    }
+  ]
+}
